@@ -1,6 +1,7 @@
 document.querySelector('#header').innerHTML = `
 <div class="header">
 <div class="logo">
+<img  src="../Assets/logo.png" alt="logo">
     <div class="logo-name">
         <span class="logo-text1">Discovery </span>
         <span class="logo-text2">land company</span> 
