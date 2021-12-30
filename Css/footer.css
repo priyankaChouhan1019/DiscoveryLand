@@ -27,6 +27,30 @@
     color: whitesmoke;
 }
 
-.footer-content{
+.col{
     margin-left: 8vw;
+}
+
+
+@media only screen and (max-width: 950px) {
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col p {
+      font-size: 14px;
+    }
+  }
+  
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col p {
+      font-size: 14px;
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
 }
