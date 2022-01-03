@@ -28,6 +28,31 @@
     line-height: 150%;
     font-style: normal;
 }
+.section3{
+    padding: 0 20rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10rem 0 ;
+}
+.section3-left-side{
+    display: block;
+    text-align: center;
+}
+.paregraph-heading{
+    line-height: 5rem;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.paregraph-discription{
+    color: #777;
+    font-size: 1.5rem;
+}
+.section3-right-side{
+    height: 100vh;
+}
 
 
 
