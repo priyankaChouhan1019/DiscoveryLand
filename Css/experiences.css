@@ -3,11 +3,43 @@
     padding: 0;
 }
 .video_section1{
-    height: 100%;
-    width: 100%;
-    position: absolute;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }
 .autoplay_video{
     height: 100%;
     width: 100%;
+}
+
+.section2{
+    height: 50%;
+    width: 100%;
+}
+.discription{
+    text-align: center;
+    text-align-last: center;
+    font-size: 2rem;
+    color: #111;
+    font-family:gt-sectra;
+    line-height: 150%;
+    font-style: normal;
+}
+
+
+
+
+.section-2{
+    width: 100%;
+    height: 50%;
+}
+
+.dlc-info{
+    font: 4em gt-sectra;
+    text-align: center;
+    margin: 20vh 0vw 0vh 0vw;
+    color: #111111;
 }
