@@ -2,6 +2,7 @@ html, body{
     padding: 0;
     height: 100%;
     width: 100%;
+     margin:-15vh 2vw 0vh 0vw;
 }
 
 /* 
@@ -11,13 +12,14 @@ html, body{
 .section1{
     background-image: url(../Assets/aboutdlc/Sec1-bg-image.jpg);
     height: 100%;
-    background-size: 100% 100%;
+    width:100%;
+    /* margin:0vh 0vw 0vh 0vw; */
 }
 
 .sec1-title{
     /* font-size: 100px; */
-    font: 6em sans-serif;
-    margin: 30vh 0vw 0vh 25vw;
+    font: 4em sans-serif;
+    margin: 30vh 0vw 40vh 25vw;
     color: whitesmoke;
 }
 
@@ -61,7 +63,7 @@ section-3
     width: 35%;
 }
 
-.right-part{
+.right-side{
     width: 45%;
 }
 
@@ -71,12 +73,14 @@ section-3
 }
 
 .sec3-discription{
-    font: 30px messina-sans;
+    font: 20px messina-sans;
     color: #777777;
 }
 
 .right-side img{
     margin: 0vh 0vw 0vh 10vw;
+    width:85%;
+    height:100%
 }
 
 /* 
@@ -93,7 +97,7 @@ section-4
 }
 
 .section-4 img{
-    margin: 20vh 0vw 0vh 10vw;
+    margin: 20vh 0vw 0vh 0vw;
 }
 
 /* 
@@ -104,11 +108,12 @@ section-5
     /* background-color: #777777; */
     width: 100%;
     height: 100%;
+    margin: -40vh 0vw 0vh 10vw;
 }
 
 .sec5-title{
     font-size: 50px;
-    margin: 1vh 10vw;
+    margin: 60vh 10vw -10vh 10vw;
     color: #000000;
 }
 
@@ -153,19 +158,19 @@ section-5
     padding: 10px;
 }
 
-.slider img:hover{
+/* .slider img:hover{
     transform: translateZ(20px);
-}
+} */
 
 .name-1{
     font-size: 2em;
-    margin: 15vh 0vw -28vh -22vw;
+    margin: 15vh 0vw -28vh -35vw;
     color: #FFFFFF;
 }
 
 .description{
     font-size: 1.3em;
-    margin: 30vh 0vw -15vh -22vw;
+    margin: 30vh 0vw -15vh -35vw;
     color: #FFFFFFBF;
 }
 
@@ -181,6 +186,7 @@ section-6
 .section-6 img {
     width: 100%;
     height: 100%;
+    margin: 30vh 0vw 0vh 0vh;
 }
 
 /* 
@@ -190,7 +196,7 @@ section-7
 .section-7{
     width: 100%;
     height: 150%;
-    margin: 0;
+    margin: 30vh 0vw;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -217,8 +223,8 @@ section-7
 
 .sec7-para{
     color: #777777;
-    font-size: 30px;
-    margin: 35vh 0vw 0vh 0vw;
+    font-size: 20px;
+    margin: 40vh 0vw 0vh -1vw;
 }
 
 .sec7-para img{
@@ -269,14 +275,14 @@ section-9
 }
 
 .sec9-para{
-    font-size: 25px;
+    font-size: 20px;
     color: #777777;
-    margin: 2vh 0vw 0vh 8vw;
+    margin: 2vh 20vw 0vh 8vw;
 }
 
 .sec-9-left-part img{
     margin: 20vh 0vw;
-    width: 80%;
+    width: 100%;
 }
 
 .sec-9-right-part img{
